@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>chat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; 
+    position: absolute;
+  left: 0px;
+  bottom: 0px;
+  
+  }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+  background-color:  hsl(0, 0%, 100%);
+}
+.back {position: absolute;
+  top: 0px;
+right: 1100px;
+height: 550px;
+width: 500px;
+background:linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+
+}
+.bag2{background-color:  hsla(270, 4%, 68%, 0.1);
+  height: 620px;
+width: 450px;
+border-top-right-radius: 50%;
+  border-top-left-radius:50%;
+  position: relative;
+  top: 100px;
+  
+  left: 1170px;
+}
+.phone{
+  position: absolute;
+  left: 370px;
+  top:100px;
+height: 565px;
+width: 290px;
+background-color: hsl(270, 20%, 96%);
+border: 10px solid;
+border-color: hsl(0, 0%, 100%);
+border-radius: 30px;
+}
+.top{height: 75px;
+  width:290px ;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background:linear-gradient(45deg,  hsl(264, 100%, 61%),hsl(293, 100%, 63%)) ;
+}
+.topp{ position: relative;
+  left: 70px;
+height: 24px;
+width: 160px;
+background-color:hsl(0, 0%, 100%) ;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+}
+.mas1{
+margin: 0px;
+  width: 170px;
+  height: 57px;
+  background-color:  hsla(289, 100%, 72%,0.1);
+  color: hsl(276, 55%, 52%);
+  border-radius: 18px;
+  border-bottom-left-radius: 7px;
+  position: relative;
+  left: 15px;
+  top: 7px;
+  bottom: 200px;
+  font-size: 15px;
+}
+.mas2{
+  width: 170px;
+  height: 67px;
+  background-color:  hsla(289, 100%, 72%,0.1);
+  color: hsl(276, 55%, 52%);
+  border-radius: 18px;
+  border-bottom-left-radius: 7px;
+  position: relative;
+  left: 15px;
+top:12px;
+font-size: 14px;
+
+}
+.mas4{
+  width: 170px;
+  height: 70px;
+  background-color:  hsla(289, 100%, 72%,0.1);
+  color: hsl(276, 55%, 52%);
+  border-radius: 18px;
+  border-bottom-left-radius: 7px;
+  position: relative;
+  left: 15px;
+  top: 52px;
+  font-size: 12px;
+  
+
+}
+.mas3{
+  width: 160px;
+  height: 50px;
+  background-color:  hsl(0, 0%, 100%) ;
+  color: hsl(271, 15%, 43%);
+  border-radius: 18px;
+border-bottom-right-radius:  7px;
+  position: relative;
+  left: 120px;
+  top:20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mas5{
+  width: 120px;
+  height: 28px;
+  background-color:  hsl(0, 0%, 100%) ;
+  color: hsl(271, 15%, 43%);
+  border-radius: 18px;
+border-bottom-right-radius:  7px;
+position: relative;
+  left: 160px;
+ bottom: 48px;
+  font-size: 12px;
+}
+p{  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 9px;
+}
+.img{
+  position: relative;
+  top: 20px;
+  left: 130px;
+  border-radius: 5px;
+  
+}
+.p1{
+position: absolute;
+right: 300px;
+bottom: 300px;
+}
+h1{
+  color:hsl(271, 36%, 24%) ;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.par{font-size: 16px;
+  line-height: 30px;
+  color:  hsl(270, 7%, 64%);
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h3{  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(0, 0%, 100%) ;
+position: relative;
+bottom: 15px;
+left: 75px;
+}
+h6{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  bottom: 40px;
+  left: 75px;
+  color: hsl(0, 0%, 88%) ;
+  letter-spacing: 2px;
+}
+.point{
+  position: relative;
+  bottom: 100px;
+  left: 260px;
+  font-weight: 500;
+  font-size: 8px;
+  color:hsl(0, 0%, 100%) ;
+  line-height: 6px;
+}
+.l{position: relative;
+  bottom: 139px;
+  left: 10px;
+font-size: large;
+color:hsl(0, 0%, 100%) ;
+font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.avatar{
+  position: relative;
+  bottom: 192px;
+  left: 34px;
+  
+  border-width: 10px;
+  border-color: (0, 0%, 100%);
+  border-radius: 50%;
+}
+.v1{margin: 2px;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(45deg,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-radius: 18px;
+  border-bottom-left-radius: 7px;
+  position: relative;
+  top:25px;
+  left: 15px;
+z-index: 1;
+}
+.sent{
+width: 260px;
+height: 35px;
+background-color:hsl(0, 0%, 100%) ;
+position: relative;
+top: 34px;
+left: 12px;
+border-radius: 15px;
+color: hsl(270, 7%, 64%);
+
+}
+.ty{
+font-size: 13px;
+position: relative;
+left: 15px;
+}
+.num2{padding: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius:50% ;
+color: hsl(0, 0%, 100%) ;
+background-color: hsl(271, 36%, 24%);
+position: relative;
+bottom: 30px;
+left: 223px;
+
+}
+.nn2{
+  position: relative;
+  bottom: 66px;
+  left:226px;
+  color: hsl(0, 0%, 100%);
+}
+.walk{
+color: hsl(0, 0%, 100%);
+font-size: small;
+position: relative;
+left: 30px;
+bottom: 53px;
+
+}
+.dodo{
+position: relative;
+bottom: 88px;
+left: 143px;
+color:  hsl(0, 0%, 100%);
+font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.cir{position: relative;
+  bottom: 10px;
+font-size: xx-large;
+color:  hsl(0, 0%, 84%);
+
+
+}
+  </style>
+</head>
+<body>
+  <div class="bag2"></div>
+<div class="back"></div>
+<div class="phone">
+  <div class="top">
+  <div class="topp"></div>
+  
+   <h3> Samuel Green</h3><h6>Available to Walk</h6>
+   <p class="point"> ●<br> ●<br> ●<p class="l" >❰</p>
+  </p>
+  <img  class="avatar" src="images/avatar.jpg" height="30px" width="30px">
+</div>
+<div class="mas1"><p>
+  That sounds great. I’d be
+   happy with that.</p></div>
+<div class="mas2"> <p >Could you send over some pictures of your dog ,please?</p></div>
+<img  class="img" src="images/dog-image-1.jpg" height="45px" width="45px">
+<img class="img" src="images/dog-image-2.jpg" height="45px" width="45px">
+<img class="img" src="images/dog-image-3.jpg" height="45px" width="45px">
+<div class="mas3"><p>
+  Here are a few pictures. She’s a happy girl!</p></div>
+<div class="mas4"><p>She looks so happy! The time we discussed works. How long shall I take her out for?</p></div>
+<div class="mas5">  <p>Can you make it?</p> </div>
+<div class="v1"><p class="cir">○</p><p class="walk">30 minute walk</p><p class="dodo">$29</p></div>
+<div class="v1"><p class="cir">○</p><p class="walk">
+  1 hour walk</p>  <p class="dodo"> $49</p></div>
+<div class="sent"><p class="ty">Type a message…</p> <p class="num2"></p>
+  <p class="nn2">❯</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+ 
+
+  
+<div class="p1">
+ <h1> Simple booking</h1>
+<p class="par">
+  Stay in touch with our dog walkers through the chat<br> interface. This makes it easy to 
+  discuss arrangements and<br>  make bookings. Once the walk has been completed you can<br>  rate 
+  your walker and book again all through the chat.
+  </p></div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">rayyan jasem</a>.
+  </div>
+</body>
+</html>
